@@ -14,7 +14,7 @@ class _ChatRoomScreenState extends State<ChatRoomScreen> {
     return Container(
       color: Color(0xFFb2c7da),
       child: Scaffold(
-        backgroundColor: Colors.transparent,
+        backgroundColor: Colors.transparent, // Scaffold가 배경을 가리지 않게 처리 - 중요
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           title: Text(
